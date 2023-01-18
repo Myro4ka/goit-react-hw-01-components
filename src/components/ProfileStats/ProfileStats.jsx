@@ -1,6 +1,6 @@
+// import PropTypes from 'prop-types';
 export const ProfileStats = ({ stats }) => {
   const { followers, views, likes } = stats;
-  console.log(stats);
   return (
     <ul className="stats">
       <li>
