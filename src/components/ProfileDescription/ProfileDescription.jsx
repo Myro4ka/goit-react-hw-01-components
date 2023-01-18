@@ -1,5 +1,3 @@
-import { Fragment } from 'react';
-
 export const ProfileDescription = ({ username, tag, location, avatar }) => {
   return (
     <>

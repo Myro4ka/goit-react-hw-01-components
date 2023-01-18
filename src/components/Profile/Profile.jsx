@@ -1,6 +1,6 @@
 import { ProfileDescription } from 'components/ProfileDescription/ProfileDescription';
 import { ProfileStats } from 'components/ProfileStats/ProfileStats';
-import { Fragment } from 'react';
+
 import user from '../../data/user.json';
 console.log(user);
 

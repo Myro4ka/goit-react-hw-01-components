@@ -1,5 +1,4 @@
 import { Profile } from 'components/Profile/Profile';
-import { Fragment } from 'react';
 
 import user from '../../data/user.json';
 // console.log(user);
