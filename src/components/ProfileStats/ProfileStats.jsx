@@ -1,4 +1,5 @@
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
+
 export const ProfileStats = ({ stats }) => {
   const { followers, views, likes } = stats;
   return (
@@ -17,4 +18,12 @@ export const ProfileStats = ({ stats }) => {
       </li>
     </ul>
   );
+};
+
+ProfileStats.propTypes = {
+  stats: PropTypes.exact({
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
+  }).isRequired,
 };

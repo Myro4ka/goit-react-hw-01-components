@@ -29,5 +29,5 @@ Profile.propTypes = {
       views: PropTypes.number,
       likes: PropTypes.number,
     }),
-  }),
+  }).isRequired,
 };
