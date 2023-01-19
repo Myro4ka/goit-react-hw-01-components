@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 
 export const StatisticItem = ({ label, percentage }) => {
-  console.log(label);
   return (
     <li className="item">
       <span className="label">{label}</span>
