@@ -1,0 +1,33 @@
+.stats {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  border-top: 1px solid lightgray;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(320px / 3);
+  height: 100%;
+}
+
+.stats li:not(:last-child) {
+  border-right: 1px solid lightgray;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.quantity {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(0, 0, 0, 0.9);
+}

@@ -1,12 +1,13 @@
+import PropTypes from 'prop-types';
+import css from '../Profile/Profile.module.css';
+
 import { ProfileDescription } from 'components/ProfileDescription/ProfileDescription';
 import { ProfileStats } from 'components/ProfileStats/ProfileStats';
-import PropTypes from 'prop-types';
-// import user from '../../data/user.json';
 
 export const Profile = ({ user }) => {
   const { username, tag, location, avatar, stats } = user;
   return (
-    <>
+    <div className={css.container}>
       <ProfileDescription
         username={username}
         tag={tag}
@@ -14,7 +15,7 @@ export const Profile = ({ user }) => {
         avatar={avatar}
       />
       <ProfileStats stats={stats} />
-    </>
+    </div>
   );
 };
 
