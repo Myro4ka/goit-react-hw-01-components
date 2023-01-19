@@ -1,0 +1,27 @@
+.transaction_history {
+  width: 600px;
+  height: 400px;
+
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.7);
+}
+.transaction_history thead {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: lightblue;
+}
+
+.transaction_history tr {
+  height: calc(100% / 21);
+}
+
+.transaction_history th {
+  width: calc(100% / 3);
+  padding: 10px;
+}
+
+.transaction_history td {
+  padding: 10px;
+}
